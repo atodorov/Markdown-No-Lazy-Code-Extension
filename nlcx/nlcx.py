@@ -3,7 +3,7 @@ from markdown.blockprocessors import CodeBlockProcessor
 from markdown.preprocessors import NormalizeWhitespace
 
 class NLCodeExtension(Extension):
-    def extendMarkdown(self, md, md_globals):
+    def extendMarkdown(self, md):
         md.parser.blockprocessors['code'] = NLCodeProcessor(md.parser)
         md.preprocessors['normalize_whitespace'] = KeepLeadingSpaces(md)
 
