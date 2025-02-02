@@ -13,7 +13,7 @@ jobs:
     name: unit test with Python ${{ matrix.python-version }} and Markdown ${{ matrix.markdown-version }}
     strategy:
       matrix:
-        python-version: [3.5]
+        python-version: [3.6]
         markdown-version: [2.6.11]
 
     steps:
