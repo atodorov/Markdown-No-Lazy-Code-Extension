@@ -27,5 +27,6 @@ jobs:
 
       - name: Execute tests
         run: |
+          pip install -U pip setuptools
           pip install Markdown==${{ matrix.markdown-version }}
           python setup.py test
