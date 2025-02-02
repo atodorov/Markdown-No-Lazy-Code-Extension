@@ -29,4 +29,5 @@ jobs:
         run: |
           pip install -U pip setuptools
           pip install Markdown==${{ matrix.markdown-version }}
-          python setup.py test
+
+          python -m unittest discover -v nlcx/

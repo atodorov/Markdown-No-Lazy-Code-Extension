@@ -46,7 +46,6 @@ config = {
         'Topic :: Text Processing :: Markup :: HTML',
     ],
     'install_requires' : ['Markdown'],
-    'test_suite' : '__main__.execute_tests',
 }
 
 setup(**config)
