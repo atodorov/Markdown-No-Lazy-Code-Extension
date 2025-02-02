@@ -14,8 +14,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: [3.11, 3.12, 3.13]
-        markdown-version: [2.6.11]
+        python-version: [3.13]
+        markdown-version: [3.7]
 
     steps:
       - uses: actions/checkout@v4
