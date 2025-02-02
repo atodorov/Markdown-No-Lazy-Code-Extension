@@ -12,8 +12,9 @@ jobs:
     runs-on: ubuntu-24.04
     name: unit test with Python ${{ matrix.python-version }} and Markdown ${{ matrix.markdown-version }}
     strategy:
+      fail-fast: false
       matrix:
-        python-version: [3.8]
+        python-version: [3.11, 3.12, 3.13]
         markdown-version: [2.6.11]
 
     steps:
