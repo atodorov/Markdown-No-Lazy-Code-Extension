@@ -1,11 +1,6 @@
 Markdown No Lazy Code Extension
 --------------------------------
 
-.. image:: https://img.shields.io/travis/atodorov/Markdown-No-Lazy-Code-Extension/master.svg
-   :target: https://travis-ci.org/atodorov/Markdown-No-Lazy-Code-Extension
-   :alt: Build status
-
-
 .. image:: https://pypip.in/download/Markdown-No-Lazy-Code-Extension/badge.png
     :target: https://pypi.python.org/pypi/Markdown-No-Lazy-Code-Extension/
     :alt: Downloads
